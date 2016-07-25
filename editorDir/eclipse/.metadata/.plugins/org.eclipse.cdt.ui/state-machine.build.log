@@ -1,0 +1,21 @@
+23:05:56 **** Incremental Build of configuration Debug for project state-machine ****
+make all 
+Building file: /home/hui/github/state-machine/projectDir/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"projectDir/main.d" -MT"projectDir/main.o" -o "projectDir/main.o" "/home/hui/github/state-machine/projectDir/main.c"
+Finished building: /home/hui/github/state-machine/projectDir/main.c
+ 
+Building file: /home/hui/github/state-machine/projectDir/stateMachine.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"projectDir/stateMachine.d" -MT"projectDir/stateMachine.o" -o "projectDir/stateMachine.o" "/home/hui/github/state-machine/projectDir/stateMachine.c"
+Finished building: /home/hui/github/state-machine/projectDir/stateMachine.c
+ 
+Building target: libstate-machine.a
+Invoking: GCC Archiver
+ar -r  "libstate-machine.a"  ./projectDir/main.o ./projectDir/stateMachine.o ./projectDir/stateMachineAdapt.o   
+ar: creating libstate-machine.a
+Finished building target: libstate-machine.a
+ 
+
+23:05:57 Build Finished (took 772ms)
+

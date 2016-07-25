@@ -1,0 +1,7 @@
+23:16:57 **** Clean-only build of configuration Debug for project state-machine-project ****
+make clean 
+rm -rf  ./projectDir/main.o ./projectDir/stateMachine.o ./projectDir/stateMachineAdapt.o  ./projectDir/main.d ./projectDir/stateMachine.d ./projectDir/stateMachineAdapt.d  state-machine-project
+ 
+
+23:16:57 Build Finished (took 144ms)
+

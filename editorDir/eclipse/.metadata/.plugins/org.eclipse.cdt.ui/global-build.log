@@ -1,0 +1,26 @@
+23:14:21 **** Build of configuration Debug for project state-machine-project ****
+make all 
+Building file: /home/hui/github/state-machine/projectDir/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"projectDir/main.d" -MT"projectDir/main.o" -o "projectDir/main.o" "/home/hui/github/state-machine/projectDir/main.c"
+Finished building: /home/hui/github/state-machine/projectDir/main.c
+ 
+Building file: /home/hui/github/state-machine/projectDir/stateMachine.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"projectDir/stateMachine.d" -MT"projectDir/stateMachine.o" -o "projectDir/stateMachine.o" "/home/hui/github/state-machine/projectDir/stateMachine.c"
+Finished building: /home/hui/github/state-machine/projectDir/stateMachine.c
+ 
+Building file: /home/hui/github/state-machine/projectDir/stateMachineAdapt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"projectDir/stateMachineAdapt.d" -MT"projectDir/stateMachineAdapt.o" -o "projectDir/stateMachineAdapt.o" "/home/hui/github/state-machine/projectDir/stateMachineAdapt.c"
+Finished building: /home/hui/github/state-machine/projectDir/stateMachineAdapt.c
+ 
+Building target: state-machine-project
+Invoking: GCC C Linker
+gcc  -o "state-machine-project"  ./projectDir/main.o ./projectDir/stateMachine.o ./projectDir/stateMachineAdapt.o   
+Finished building target: state-machine-project
+ 
+23:16:57 **** Clean-only build of configuration Debug for project state-machine-project ****
+make clean 
+rm -rf  ./projectDir/main.o ./projectDir/stateMachine.o ./projectDir/stateMachineAdapt.o  ./projectDir/main.d ./projectDir/stateMachine.d ./projectDir/stateMachineAdapt.d  state-machine-project
+ 
